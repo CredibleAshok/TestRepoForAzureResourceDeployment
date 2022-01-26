@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "subscriptionId": {
+      "value": "66c03438-90ae-4c3a-a56e-085514c2d9a2"
+    },
+    "name": {
+      "value": "TestAshokArmTemplate"
+    },
+    "location": {
+      "value": "Central US"
+    },
+    "hostingPlanName": {
+      "value": "StudyAnyTimeServicePlan"
+    },
+    "serverFarmResourceGroup": {
+      "value": "StudyAnyTimeResourceGroup"
+    },
+    "alwaysOn": {
+      "value": false
+    },
+    "currentStack": {
+      "value": "dotnet"
+    },
+    "phpVersion": {
+      "value": "OFF"
+    },
+    "netFrameworkVersion": {
+      "value": "v6.0"
+    }
+  }
+}
